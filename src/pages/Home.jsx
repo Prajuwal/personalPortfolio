@@ -8,7 +8,7 @@ function Home() {
       <div className="about">
         <h2> Hi, My Name is Prajuwal</h2>
         <div className="prompt">
-          <p>Software Engineer | Open Source Enthusiast</p>
+          <p>Software Developer | Front-End </p>
           <LinkedIn />
           <Email />
           <GitHub />
@@ -23,11 +23,11 @@ function Home() {
           </li>
           <li className="item">
             <h2>Back-End</h2>
-            <span>PHP, CodeIgniter</span>
+            <span>NodeJS</span>
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, PHP, TypeScript</span>
+            <span>JavaScript, TypeScript</span>
           </li>
         </ol>
       </div>

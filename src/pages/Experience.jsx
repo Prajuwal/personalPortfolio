@@ -36,7 +36,16 @@ const Experience = () => {
           <h4 className="vertical-timeline-element-subtitle">
             New Delhi, India
           </h4>
-          <p>Created search UI using ElasticSearch And Kibana.</p>
+          <ul>
+            <li>
+              Successfully debugged the web-related issues, leading to improved
+              efficiency and performance.
+            </li>
+            <li>
+              Implemented visual elements to enhance user experience based on
+              design feedback and client requirements
+            </li>
+          </ul>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -51,10 +60,35 @@ const Experience = () => {
           <h4 className="vertical-timeline-element-subtitle">
             New Delhi, India
           </h4>
-          <p>
-            Implemented React.js to create dynamic and reusable components,
-            enhancing development efficiency and user experience.
-          </p>
+          <ul>
+            <li>
+              Developed the API Directory for DigiLocker on apisetu.gov.in,
+              enabling access to 4k+ APIs for 500+ organizations, using React,
+              Redux Toolkit, and ChakraUI.
+            </li>
+            <li>
+              Enhanced user experience by implementing design feedback,
+              resulting in visually appealing features and high user
+              satisfaction.
+            </li>
+            <li>
+              Collaborated across teams to ensure precise implementation of
+              functional requirements, maintaining a high level of accuracy.
+            </li>
+            <li>
+              Optimized UI for responsiveness, leading to an improved user
+              experience across various devices.
+            </li>
+            <li>
+              Analyzed user research trends and recommended design process
+              changes, driving more effective and user-centric design
+              iterations.
+            </li>
+            <li>
+              Contributed to various DigiLocker services, including driving
+              license and RC, used by millions.
+            </li>
+          </ul>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

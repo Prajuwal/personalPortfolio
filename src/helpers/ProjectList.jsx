@@ -1,39 +1,26 @@
-import Proj1 from "../assets/proj1.jpg";
-import Proj2 from "../assets/proj2.jpg";
-import Proj3 from "../assets/proj3.webp";
-import Proj4 from "../assets/proj4.webp";
-import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.png";
+import proj from "../assets/proj.jpeg";
 
 export const ProjectList = [
   {
-    name: "Dijkstra Algorithm Visualizer",
-    image: Proj1,
-    skills: "JavaScript,HTML,CSS",
+    id: 0,
+    name: "Tesla-knockoff-Ecommerce",
+    image: proj,
+    skills: "React,Redux,Typescript,TailwindCSS,Firebase,React Router",
+    features: `Add and delete from cart,checkout,authentication`,
+    github:'',
   },
   {
-    name: "Ecommerce Website",
-    image: Proj2,
-    skills: "React,Node.js,MongoDB",
+    id: 1,
+    name: "Book Explorer",
+    image: proj,
+    skills: "React,TailwindCSS,HTML,Javascript",
+    features: `Add book,Edit book,Sorting,Filtering,Search`,
   },
   {
-    name: "Spotify Clone",
-    image: Proj3,
-    skills: "React,Node.js,MongoDB,SpotifyAPI",
-  },
-  {
-    name: "Social Media Website",
-    image: Proj4,
-    skills: "React,Node.js,MySQL,GraphQL",
-  },
-  {
-    name: "Dashboard Visualizer",
-    image: Proj5,
-    skills: "JavaScript,HTML,CSS",
-  },
-  {
-    name: "Mobile Game",
-    image: Proj6,
-    skills: "React Native,JavaScript,HTML,CSS",
+    id: 2,
+    name: "Ourtube",
+    image: proj,
+    skills: "React,Redux,TailwindCSS,React Router",
+    features: "Youtube Api,Search,auto-suggestions,comments,video play",
   },
 ];

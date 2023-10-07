@@ -7,6 +7,7 @@ import Projects from "./pages/Projects";
 import Experience from "./pages/Experience";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ProjectDisplay from "./pages/ProjectDisplay";
 
 const AppLayout = () => {
   return (
@@ -34,6 +35,18 @@ const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />,
+      },
+      {
+        path: "/projects/0",
+        element: <ProjectDisplay id={0} />,
+      },
+      {
+        path: "/projects/1",
+        element: <ProjectDisplay id={1} />,
+      },
+      {
+        path: "/projects/2",
+        element: <ProjectDisplay id={2} />,
       },
       {
         path: "/experience",
